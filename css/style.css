@@ -1,0 +1,88 @@
+/*============================================
+ header section design start from here 
+============================================== */
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow:  3px 3px 5px #3292A6;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link{
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-right: 20px !important;
+}
+.bg_color{
+    background-color: #3292A6;
+    color: #fff;
+}
+.color{
+    color: #3292A6;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 10000;
+}
+/*============================================
+ header section design ends from   here 
+============================================== */
+
+
+/*============================================
+ hero area section design start from   here 
+============================================== */
+.hero_area{
+    background-image: url(../img/mountains.jpg);
+    background-repeat: no-repeat;
+    background-position: center  ;
+    background-size: cover;
+}
+.hero_inner{
+     background-color: #3292A6B0;
+}
+.hero_area h1{
+    color: #fff;
+    font-weight: 500;
+}
+.hero_area p{
+    color: #fff;
+}
+.btn{
+   border-radius: 0px ;
+}
+/*============================================
+hero area section design ends from   here 
+============================================== */
+
+
+
+/*============================================
+ authors section design start from   here 
+============================================== */
+.mumber_img {
+    margin-top: -100px;
+}
+.about_info .card:hover{
+    background-color: #3292A6;
+    color: #fff;
+}
+/*============================================
+ authors section design  ends from   here 
+============================================== */
+
+/*============================================
+ contact section design start from here 
+============================================== */
+.input-group .fa-solid{
+    padding: 78px 0px;
+}
+/*============================================
+ authors section design from  ends here 
+============================================== */
